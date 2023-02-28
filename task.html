@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Zoo Keeper Application Form</h1>
+    <i>Please complete the form. Mandatory fields are marked with a <sup>*</sup></i>
+
+    <fieldset>
+        <legend><strong>Contact Details</strong></legend>
+        <label for="name">Name <sup>*</sup> &nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="name" minlength="3" />
+
+        <br />
+        <br />
+
+        <label for="pNumber">Telephone</label>
+        <input type="number" id="pNumber" />
+
+        <br />
+        <br />
+
+        <label for="mail">Email<sup>*</sup> &nbsp; &nbsp; &nbsp; </label>
+        <input type="email" id="mail" />
+    </fieldset>
+
+
+    <fieldset>
+        <legend><strong>Personal Information</strong></legend>
+        <label for="age"><sup>*</sup>Age &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label>
+        <input type="number" id="name" min="18" max="50" />
+
+        <br />
+        <br />
+
+        <label>Gender &nbsp; &nbsp; &nbsp; </label>
+        <select>
+            <option value="" disabled selected>Choose</option>
+            <option value="0"> Male</option>
+            <option value="1">Female</option>
+        </select>
+
+        <br />
+        <br />
+
+        <label>When did you <br />first know you<br /> wanted to be a<br /> zoo-keeper?</label>
+        <textarea height="200px" cols="70" rows="20"></textarea>
+    </fieldset>
+
+    <br />
+    <br />
+
+    <fieldset>
+        <legend><strong>Pick Your Favorite Animals</strong></legend>
+        <input type="checkbox" id="zebr" name="Zebra" />
+        <label for="zebr">Zebra</label>
+
+        &nbsp; &nbsp; &nbsp;&nbsp;
+
+        <input type="checkbox" id="cat" name="Cat" />
+        <label for="cat">Cat</label>
+
+        &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+        <input type="checkbox" id="anaconda" name="Anaconda" />
+        <label for="anaconda">Anaconda</label>
+
+        <input type="checkbox" id="human" name="Human" />
+        <label for="human">Human</label>
+
+
+        <br />
+
+        <input type="checkbox" id="elephant" name="Elephant" />
+        <label for="elephant">Elephant</label>
+
+        &nbsp;
+
+        <input type="checkbox" id="wildebeest" name="Wildebeest" />
+        <label for="wildebeest">Wildebeest</label>
+
+        <input type="checkbox" id="pigeon" name="Pigeon" />
+        <label for="pigeon">Pigeon</label>
+
+        &nbsp; &nbsp; 
+
+        <input type="checkbox" id="crab" name="Crab" />
+        <label for="crab">Crab</label>
+
+    </fieldset>
+    <br />
+    &nbsp;<button type="submit">Submit Application</button>
+
+
+
+    <hr />
+
+    <table border="1" cellspacing="0" width="300px" height="300px">
+        <tr>
+            <td colspan="3" height="50px">1</td>
+
+        </tr>
+        <tr>
+            <td rowspan="2" width="50px">4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+    <hr />
+
+    <table border="1" cellspacing="0" width="300px" height="300px">
+        <tr>
+            <td>1</td>
+            <td rowspan="2">2</td>
+            <td rowspan="3">3</td>
+            <td rowspan="4">4</td>
+            <td rowspan="5" width="80px">5</td>
+        </tr>
+        <tr>
+            <td>6</td>
+
+
+
+
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>12</td>
+
+
+
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+
+
+        </tr>
+        <tr>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+
+        </tr>
+
+    </table>
+
+    <hr />
+
+    <table border="1" cellspacing="0" width="300px" height="300px">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td colspan="2">9</td>
+
+            <td colspan="2">11</td>
+
+        </tr>
+        <tr>
+            <td colspan="2">13</td>
+
+            <td colspan="2">15</td>
+
+        </tr>
+    </table>
+
+    <hr />
+
+    <table border="1" cellspacing="0" width="300px" height="300px">
+        <tr>
+            <td colspan="4" height="30px">1</td>
+
+        </tr>
+        <tr>
+            <td colspan="4" height="30px">5</td>
+
+        </tr>
+        <tr>
+            <td rowspan="4" width="50px">9</td>
+            <td colspan="3" rowspan="1">10</td>
+
+        </tr>
+        <tr>
+
+
+
+        </tr>
+        <tr>
+
+            <td colspan="3" rowspan="1">18</td>
+
+        </tr>
+        <tr>
+
+
+
+        </tr>
+
+    </table>
+
+    <hr />
+
+    <table border="1" cellspacing="5" width="500px" height="300px">
+        <caption>Football Scores</caption>
+        <tr>
+            <td colspan="2">Home Team</td>
+
+            <td colspan="2">Away Team</td>
+
+        </tr>
+
+        <tr>
+            <td>Arsenal</td>
+            <td width="50px">2</td>
+            <td>Leeds</td>
+            <td width="50px">1</td>
+        </tr>
+
+        <tr>
+            <td>Derby</td>
+            <td>1</td>
+            <td>Everton</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Liverpool</td>
+            <td>0</td>
+            <td>Sunderland</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Newcastle</td>
+            <td>1</td>
+            <td>Man Utd</td>
+            <td>4</td>
+        </tr>
+
+    </table>
+
+    <hr />
+
+    <table border="1" cellspacing="0" width="400px" height="200px">
+        <tr>
+            <td colspan="2">Subject</td>
+
+            <td>John Doe</td>
+            <td>Miriam Luther</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Biology</td>
+            <td>Practical</td>
+            <td>A</td>
+            <td>A</td>
+        </tr>
+        <tr>
+
+            <td>Theory</td>
+            <td>A+</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Chemistry</td>
+            <td>Practical</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+
+            <td>Theory</td>
+            <td>A</td>
+            <td>C+</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Physics</td>
+            <td>Practical</td>
+            <td>A</td>
+            <td>A</td>
+        </tr>
+        <tr>
+
+            <td>Theory</td>
+            <td>A-</td>
+            <td>A-</td>
+        </tr>
+
+    </table>
+
+    <hr />
+
+
+
+
+
+</body>
+
+</html>
